@@ -27,19 +27,85 @@ body {
 
 /* Header & Navigation */
 .header {
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 30px rgba(0,0,0,0.05);
-    padding: 12px 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+    padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: 3px solid var(--brand-orange);
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    max-height: 65px;
+    border-radius: 8px; /* Softens the edges of your logo image */
+    transition: var(--transition);
+}
+.logo:hover { transform: scale(1.03); }
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-dark);
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: var(--transition);
+}
+
+.main-nav a:hover:not(.cta-button):not(.nav-call) { 
+    color: var(--brand-orange); 
+}
+
+/* NEW CALL BUTTON STYLING */
+.nav-call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700 !important;
+    color: var(--primary-dark) !important;
+    background: #f1f5f9;
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 1px solid #e2e8f0;
+    transition: var(--transition);
+}
+.nav-call svg {
+    stroke: var(--brand-orange);
+}
+.nav-call:hover {
+    background: #e2e8f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.cta-button {
+    background: linear-gradient(45deg, var(--brand-orange), #ff9800);
+    color: var(--white) !important;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+    border: none;
+}
+.cta-button:hover {
+    background: linear-gradient(45deg, var(--brand-orange-hover), var(--brand-orange));
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(249, 115, 22, 0.5);
+}  align-items: center;
 }
 
 /* LOGO BLEND TRICK: Removes the white background from the logo */
