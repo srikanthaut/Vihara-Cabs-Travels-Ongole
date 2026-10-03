@@ -5,166 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vihara Cabs & Travels Ongole</title>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Link to external CSS -->
-    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- Header & Navigation -->
     <header class="header">
         <div class="container header-content">
-            <!-- Ensure your logo is uploaded to an 'images' folder -->
-            <img src="logo.png" alt="Vihara Cabs & Travels Ongole Logo" class="logo">
-            <a href="https://wa.me/917036591314" class="cta-button" target="_blank">Book Now</a>
+            <a href="#home">
+                <img src="logo.png" alt="Vihara Cabs & Travels Ongole Logo" class="logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#packages">Tour Packages</a></li>
+                    <li><a href="https://wa.me/917036591314" class="cta-button" target="_blank">Book Now</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-text">
-            <h1>Welcome to<br><span class="highlight">Vihara Cabs & Travels Ongole</span></h1>
-            <p>Safe Rides • Memorable Journeys</p>
-        </div>
-    </section>
+    <!-- HOME SECTION -->
+    <main id="home">
+        <!-- Hero Banner -->
+        <section class="hero reveal">
+            <div class="container hero-text">
+                <h1>Welcome to<br><span class="highlight">Vihara Cabs & Travels Ongole</span></h1>
+                <p>Safe Rides • Memorable Journeys</p>
+            </div>
+        </section>
 
-    <!-- About Section (Greatness of Travel & Devotional Trips) -->
-    <section class="about container">
-        <div class="about-card">
-            <h2>The Joy of Traveling</h2>
-            <p>Traveling is more than just moving from one place to another; it is an exploration of the soul and a celebration of life's boundless beauty. When we step out of our daily routines, we open ourselves to new cultures, breathtaking landscapes, and unforgettable experiences that broaden our horizons. Journeying through diverse terrains teaches us resilience, adaptability, and a deep appreciation for the world around us. Every mile covered brings a new story, a fresh perspective, and memories that last a lifetime. Whether it is a quiet escape into nature or a thrilling adventure across cities, travel enriches our minds, rejuvenates our spirits, and connects us with the shared humanity that binds us all. It is the ultimate investment in oneself, offering priceless moments of joy, discovery, and profound personal growth.</p>
+        <!-- Travel Purpose & Devotional Touch -->
+        <section class="info-section container reveal">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h2>The Joy of Traveling</h2>
+                    <p>Traveling is more than just moving from one place to another; it is an exploration of the soul and a celebration of life's boundless beauty. When we step out of our daily routines, we open ourselves to new cultures, breathtaking landscapes, and unforgettable experiences that broaden our horizons. Journeying through diverse terrains teaches us resilience, adaptability, and a deep appreciation for the world around us. Every mile covered brings a new story, a fresh perspective, and memories that last a lifetime.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h2>Significance of Devotional Trips</h2>
+                    <p>Devotional trips offer a profound sense of peace, spiritual awakening, and a break from the chaos of modern life. Visiting sacred temples and holy shrines helps cleanse the mind, bringing inner tranquility and renewed purpose. These journeys allow us to reconnect with our roots, experience divine energy, and find solace in faith. Beyond religious significance, spiritual tourism promotes mindfulness, gratitude, and a deeper understanding of our cultural heritage.</p>
+                </div>
+
+                <div class="info-card highlight-card">
+                    <h2>Why Book With Us?</h2>
+                    <p>At Vihara Cabs & Travels, we prioritize your safety, comfort, and peace of mind. We offer a diverse fleet of meticulously maintained vehicles driven by highly professional and courteous chauffeurs. Whether you need a quick city ride or a meticulously planned multi-day devotional tour, we provide transparent pricing, punctual service, and customized itineraries to ensure your journey is absolutely flawless.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- TOUR PACKAGES SECTION -->
+    <section id="packages" class="packages container reveal">
+        <div class="section-header">
+            <h2>Popular Tour Packages</h2>
+            <p>Explore our carefully crafted itineraries designed for comfort and spiritual enrichment.</p>
         </div>
         
-        <div class="about-card">
-            <h2>Significance of Devotional Trips</h2>
-            <p>Devotional trips offer a profound sense of peace, spiritual awakening, and a break from the chaos of modern life. Visiting sacred temples and holy shrines helps cleanse the mind, bringing inner tranquility and renewed purpose. These journeys allow us to reconnect with our roots, experience divine energy, and find solace in faith. Beyond religious significance, spiritual tourism promotes mindfulness, gratitude, and a deeper understanding of our cultural heritage, making it a truly transformative experience for the soul.</p>
-        </div>
-    </section>
-
-    <!-- Vehicles Section -->
-    <section class="vehicles container">
-        <h2>Our Fleet</h2>
-        <div class="vehicle-info">
-            <p><strong>We have all kinds of vehicles, from comfortable Sedans for quick trips to spacious SUVs for family tours.</strong></p>
-            <p>Whatever your travel requirement, we provide clean, well-maintained vehicles with professional drivers to ensure a safe and pleasant journey.</p>
-        </div>
-    </section>
-
-    <!-- Tour Packages Section -->
-    <section class="packages container">
-        <h2>Popular Tour Packages</h2>
         <div class="package-grid">
             <!-- Package 1 -->
             <div class="package-card" onclick="openModal('modal1')">
-                <h3>Ongole to Amaravathi & Vijayawada</h3>
-                <p>Ongole -> Kotappakonda -> Mangalagiri -> Amaravathi -> Vijayawada (Return to Ongole or drop at Vijayawada)</p>
-                <span class="duration">1 Day</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Ongole to Amaravathi & Vijayawada</h3>
+                    <p>Ongole -> Kotappakonda -> Mangalagiri -> Amaravathi -> Vijayawada</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Day</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Package 2 -->
             <div class="package-card" onclick="openModal('modal2')">
-                <h3>Ongole to Srisailam via Tripuranthakam</h3>
-                <p>Ongole -> Bala Tripura Sundari Devi Temple (Tripuranthakam) -> Umamaheswaram -> Srisailam -> Ongole</p>
-                <span class="duration">1 Night / 2 Days</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Ongole to Srisailam via Tripuranthakam</h3>
+                    <p>Ongole -> Tripuranthakam -> Umamaheswaram -> Srisailam -> Ongole</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Night / 2 Days</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Package 3 -->
             <div class="package-card" onclick="openModal('modal3')">
-                <h3>Srisailam Complete Tour</h3>
-                <p>Ongole -> Srisailam (Cover entire Srisailam) -> Ongole</p>
-                <span class="duration">1 Day</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Srisailam Complete Tour</h3>
+                    <p>Ongole -> Srisailam (Cover entire Srisailam) -> Ongole</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Day</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Package 4 -->
             <div class="package-card" onclick="openModal('modal4')">
-                <h3>Malakonda & Bhairavakona</h3>
-                <p>Ongole -> Malakonda -> Bhairavakona -> Ongole</p>
-                <span class="duration">1 Day</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Malakonda & Bhairavakona</h3>
+                    <p>Ongole -> Malakonda -> Bhairavakona -> Ongole</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Day</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Package 5 -->
             <div class="package-card" onclick="openModal('modal5')">
-                <h3>Heritage & Caves Tour</h3>
-                <p>Ongole -> Nemaligunda Ranganayaka Swamy -> Mahanandi -> Yaganti -> Belum Caves -> Ongole</p>
-                <span class="duration">1 Night / 2 Days</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Heritage & Caves Tour</h3>
+                    <p>Ongole -> Nemaligunda -> Mahanandi -> Yaganti -> Belum Caves -> Ongole</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Night / 2 Days</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
 
             <!-- Package 6 -->
             <div class="package-card" onclick="openModal('modal6')">
-                <h3>Mahanandi & Yaganti Quick Tour</h3>
-                <p>Ongole -> Mahanandi -> Yaganti -> Ongole</p>
-                <span class="duration">1 Day</span>
-                <span class="details-link">Click here for more trip info</span>
+                <div class="package-content">
+                    <h3>Mahanandi & Yaganti Quick Tour</h3>
+                    <p>Ongole -> Mahanandi -> Yaganti -> Ongole</p>
+                    <div class="package-footer">
+                        <span class="duration">1 Day</span>
+                        <span class="details-link">View Itinerary &rarr;</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Modals for Itineraries (Hidden by default) -->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal1')">&times;</span>
-            <h2>Ongole to Amaravathi & Vijayawada</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section container reveal">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p><em>[Please paste your simple About Us information here. Once provided, it will display beautifully in this section.]</em></p>
         </div>
-    </div>
-    
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal2')">&times;</span>
-            <h2>Ongole to Srisailam via Tripuranthakam</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
-        </div>
-    </div>
+    </section>
 
-    <div id="modal3" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal3')">&times;</span>
-            <h2>Srisailam Complete Tour</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
-        </div>
-    </div>
-
-    <div id="modal4" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal4')">&times;</span>
-            <h2>Malakonda & Bhairavakona</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
-        </div>
-    </div>
-
-    <div id="modal5" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal5')">&times;</span>
-            <h2>Heritage & Caves Tour</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
-        </div>
-    </div>
-
-    <div id="modal6" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal6')">&times;</span>
-            <h2>Mahanandi & Yaganti Quick Tour</h2>
-            <p><em>Detailed itinerary will be updated soon based on your specific route plan.</em></p>
-            <p><strong>Contact us at +91 7036591314 to book this trip.</strong></p>
-        </div>
-    </div>
+    <!-- Modals (Hidden by default) -->
+    <div id="modal1" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal1')">&times;</span><h2>Amaravathi & Vijayawada</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
+    <div id="modal2" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal2')">&times;</span><h2>Srisailam via Tripuranthakam</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
+    <div id="modal3" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal3')">&times;</span><h2>Srisailam Complete Tour</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
+    <div id="modal4" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal4')">&times;</span><h2>Malakonda & Bhairavakona</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
+    <div id="modal5" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal5')">&times;</span><h2>Heritage & Caves Tour</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
+    <div id="modal6" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal6')">&times;</span><h2>Mahanandi & Yaganti Quick Tour</h2><p>Contact us at +91 7036591314 for full details.</p></div></div>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Vihara Cabs & Travels Ongole. All rights reserved. | Contact: +91 7036591314</p>
     </footer>
 
-    <!-- Link to external JavaScript -->
+    <!-- Scripts -->
     <script src="main.js"></script>
 </body>
 </html>
