@@ -1,0 +1,1 @@
+Please place your logo.png in this folder. You can rename your image_9e1d3c.png to logo.png and put it here.
